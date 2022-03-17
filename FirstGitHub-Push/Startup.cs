@@ -32,7 +32,8 @@ namespace FirstGitHub_Push
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello first change!");
+                    await context.Response.WriteAsync("<h1> Hello world </h1>");
+                    await context.Response.WriteAsync("Welcome to my site!");
                 });
             });
         }
