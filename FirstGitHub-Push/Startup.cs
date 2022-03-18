@@ -35,6 +35,7 @@ namespace FirstGitHub_Push
                     await context.Response.WriteAsync("<h1> Hello world </h1>");
                     await context.Response.WriteAsync("Welcome to my site!");
                     await context.Response.WriteAsync("delete");
+                    await context.Response.WriteAsync("delete-branch");
 
                 });
             });
